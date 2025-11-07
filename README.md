@@ -4,29 +4,6 @@ A fully functional **MERN Stack** (MongoDB, Express, React, Node.js) project tha
 
 This project demonstrates how to build a full-stack **e-commerce workflow** with proper frontend–backend communication using RESTful APIs, state management, and database integration.
 
----
-
-## 📜 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [System Architecture](#-system-architecture)
-- [Folder Structure](#-folder-structure)
-- [Backend Design](#-backend-design)
-  - [Models](#models)
-  - [Controllers](#controllers)
-  - [Routes](#routes)
-- [Frontend Design](#-frontend-design)
-  - [Cart Page](#cart-page)
-  - [Order Page](#order-page)
-- [API Endpoints](#-api-endpoints)
-- [Setup Instructions](#-setup-instructions)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
-- [License](#-license)
-
----
 
 ## 🧠 Overview
 
