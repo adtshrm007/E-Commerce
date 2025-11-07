@@ -29,18 +29,15 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center font-radonregular">
-              <a href="#" className="text-white text-xl font-bold">
-                E-Commerce
-              </a>
+              <p className="text-white text-xl font-bold">E-Commerce</p>
             </div>
 
             <nav className="hidden md:flex items-center space-x-4 sm:space-x-8 font-radonregular text-slate-500">
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                Home
-              </a>
+              <Link to="/">
+                <p className="text-gray-300 hover:text-white transition-colors">
+                  Home
+                </p>
+              </Link>
               <Link to="/cart">
                 <p className="text-gray-300 hover:text-white transition-colors">
                   Cart
