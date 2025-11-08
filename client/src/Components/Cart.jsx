@@ -27,7 +27,7 @@ export default function Cart() {
 
   const handleCheckout = async () => {
     try {
-      const res = await axios.post("http://localhost:3000/api/cart/checkOut", {
+      const res = await axios.post("/api/cart/checkOut", {
         userId: "guest",
       });
       alert(res.data.message);

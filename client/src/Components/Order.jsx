@@ -8,7 +8,7 @@ export default function Order() {
   useEffect(() => {
     async function fetchOrders() {
       try {
-        const res = await axios.get("http://localhost:3000/api/order/getOrder");
+        const res = await axios.get("/api/order/getOrder");//API calling
         console.log(res);
         setOrders(res.data.data || []);
       } catch (err) {
